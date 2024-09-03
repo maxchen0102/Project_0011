@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,25 +7,8 @@
        <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <style>
-        .jumbotron {
-            background: url(" https://picsum.photos/1920/300/?random") no-repeat center center;
-            margin-bottom: 0;
-        }
+<link rel="stylesheet" href="{% static 'styles.css'%}">
 
-        .path {
-            background-color: #ccc;
-        }
-        .path .breadcrumb {
-            background-color: transparent;
-        }
-
-        .main-footer {
-            background-color: black;
-            color: white;
-            padding: 20px;
-        }
-    </style>
 </head>
 <body>
 
@@ -147,6 +132,53 @@
         </div>
     </div>
 </div>
+
+
+<div class="container-fluid content-picture-word " >
+    <div class="row">
+        <div class="col-12 col-md-6 d-flex justify-content-center">
+              <img src="static/picture/ta_i_img1.png" class="img-fluid">
+        </div>
+        <div class="col-12 col-md-6 ">
+            <h2>
+                  <img src="static/picture/title_pic.png" class="img-fluid">
+                關於泰好運 阿贊帕瓦納</h2>
+            <h5>12星宿命盤解析〡正宗法力刺青〡正宗祈福提升法事
+「 為信眾解析命運、改運、催旺財運、增進貴人運 」
+</h5>
+            <hr>
+            <p class="content">泰好運 阿贊帕瓦納提供多項專業的命運解析服務，包括12星宿命盤解析、正宗法力刺青和祈福提升法事，由阿贊帕瓦納親自施作。
+阿贊帕瓦納學習多種術法及神佛的加持，為善信們送上最強大的祝福和助力，保佑他們出入平安、事事順利。
+此外，我們也提供泰國佛牌及聖物，並確保所有商品皆為實品拍攝。</p>
+            <br>
+            <p><span class="highlight">讓我們幫助您解析命運 、 改運 、 催旺財運 、 增進貴人運 ， 為您帶來好運翻轉人生 ！</span></p>
+        </div>
+    </div>
+</div>
+
+
+<div class="container content-fullword-picture justify-content-center">
+    <div class="row">
+        <div class="col-12">
+
+            <div class="image-wrapper">
+            <img src="static/picture/ta_i_img2.jpg" alt="魯士爺神像">
+            </div>
+
+            <div class="content">
+                <h1>泰好運的主神名為《魯士爺》</h1>
+                <p class="normal-content">魯士爺是泰國術士祖先，生前魯士爺在泰國被認為是可以向神接收知識來源的智慧老人，甚至是所有法術的創建者及力量來源，就像台灣祖師一樣，無論什麼法術魯士爺都是最厲害的，例如佛教、算命、法術等，即便有些科學無法解釋治療的疾病魯士爺都可以處理。</p>
+                <p class="normal-content">魯士爺一共有108種不同化身、每個身份都不一樣例如醫生、宗教領袖、紋身師傅、降頭師、魅力桃花大師、招財神通、事業智慧大師等各種隱士，每個隱士的屬性都不一樣，魯士爺會根據每個信眾需求切換不同力量的隱士幫助信眾改善一切困厄，而一般呈現在世人面前的樣子則是帶著一頂帽子穿著歡皮的老人。</p>
+                <p class="normal-content">泰好運泰國師傅《阿贊帕瓦納》修行的法門是三眼魯士（108種化身之一），三眼魯士的屬性為極強觀察事物的觀察力，遇到事情的時候能更加冷靜思考外，更能有條有理的處理事情，第六感及危機意識非常強，能避開災難危險，預知不好的事情，各行各業的人士都可以來敬拜魯士爺，因為魯士爺會針對信眾的需求化身相對應的屬性幫助信眾！</p>
+                <p class="normal-content">阿贊帕瓦納是一位具有高深法力和神力的泰國師父，他自16歲時就出家學法，並精通南傳佛教正法及魯士法門。他專精於開運招財、魅力人緣，通靈之法術，並因得到三眼魯士賜法而擁有天眼神力，能透過天眼看見人的未來流年運勢。</p>
+                <p class="normal-content">師父得到神力的加持後，發起宏願要將他高深的法力和神力回饋給善信，幫助他們改運並走出低迷的運勢。他致力於幫助善信們解析命運、提升財運、增加人緣和魅力，帶給他們好運翻轉人生。如果您需要解析命運、改善運勢或催財增運，我們可以幫助您。</p>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
 
 <div class="container-fluid main-footer text-center">
     &copy; 2021 copyright by chris

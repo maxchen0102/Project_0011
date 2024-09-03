@@ -5,15 +5,15 @@ import json
 from django.shortcuts import render
 
 
-def home_view(request):
+def test_view(request):
     context = {
         'title': 'My First Django Template',
         'name': 'World'
     }
-    return render(request, 'home.html', context)
+    return render(request, 'testTemplate.html', context)
 
 
-def data_text(request):
+def data_test(request):
     data = {
         'name': "John",
         'age': 30,
@@ -37,3 +37,5 @@ def some_view(request):
     print(json_permissions)
     print(type(json_permissions))
     return render(request, 'template.html', {'permissions': permissions, 'json_permissions': json_permissions})
+
+

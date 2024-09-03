@@ -1,0 +1,87 @@
+
+h1 {
+     font-family: "標楷體", KaiTi, "楷体", STKaiti, serif;
+}
+h2 {
+    font-family: "標楷體", KaiTi, "楷体", STKaiti, serif;
+    font-size: 40px;
+    line-height: 1.5;
+    color: #8B4513; /* 深棕色 */
+    text-align: center;
+}
+
+h5 {
+        font-family: "標楷體", KaiTi, "楷体", STKaiti, serif;
+    font-size: 25px;
+    line-height: 1.5;
+    color: #8B4513; /* 深棕色 */
+    text-align: center;
+    padding: 10px;
+
+}
+p.content {
+    font-family: "標楷體", KaiTi, "楷体", STKaiti, serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #8B4513; /* 深棕色 */
+    text-align: center;
+
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+p.normal-content{
+    font-family: "標楷體", KaiTi, "楷体", STKaiti, serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #8B4513; /* 深棕色 */
+    padding: 10px;
+}
+
+}
+
+p span.highlight {
+    color: #B8860B; /* 暗金色 */
+    font-weight: bold;
+    text-align: center;
+}
+
+.jumbotron {
+    background: url(" https://picsum.photos/1920/300/?random") no-repeat center center;
+    margin-bottom: 0;
+}
+
+.path {
+    background-color: #ccc;
+}
+.path .breadcrumb {
+    background-color: transparent;
+}
+
+.main-footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.content-picture-word {
+    background-color: cornsilk;
+    padding: 20px;
+}
+
+.content-fullword-picture{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+ .image-wrapper {
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 10px;
+        }
+  .image-wrapper img {
+            max-width: 300px;
+            height: auto;
+        }
