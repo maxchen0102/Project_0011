@@ -52,12 +52,7 @@ p span.highlight {
     margin-bottom: 0;
 }
 
-.path {
-    background-color: #ccc;
-}
-.path .breadcrumb {
-    background-color: transparent;
-}
+
 
 .main-footer {
     background-color: black;
@@ -104,3 +99,24 @@ p span.highlight {
 
   }
 
+  .word-bg{
+      /*background-image: url("../static/picture/sky.jpg");*/
+      background-color: #D2E9FF;
+      height: 400px;
+      background-size: cover;
+      background-position: center right;
+      padding: 20px;
+  }
+
+
+  .word-bg h2{
+
+  }
+
+.navbar{
+    background-color: #444444; /* 深棕色 */
+}
+
+.custom-text-color .navbar-nav .nav-link {
+    color: white ;
+}
