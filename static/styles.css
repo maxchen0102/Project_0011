@@ -85,3 +85,22 @@ p span.highlight {
             max-width: 300px;
             height: auto;
         }
+
+  .footer{
+    background-color: saddlebrown; /* 深棕色 */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footer-list ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 10px;
+  }
+  .footer-picture{
+      text-align: left;
+      padding: 20px;
+
+  }
+
